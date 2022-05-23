@@ -14,7 +14,3 @@ az deployment group create -g demo-wsl2 --template-file azuredeploy.json --param
 ```sh
 az group delete -n demo-wsl2 --no-wait -y
 ```
-
-## Author
-
-Stuart Preston
